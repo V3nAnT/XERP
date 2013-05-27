@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns:fx="http://javafx.com/fxml" fx:controller="xerp.layers.presentation.main.MainWindowController">
+  <children>
+    <HBox id="HBox" alignment="CENTER" minHeight="-1.0" minWidth="-1.0" prefHeight="372.0" prefWidth="572.0" spacing="5.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+      <children>
+        <Button mnemonicParsing="false" onAction="#pruebaClick" styleClass="ipad-dark-grey" text="Gestión de Inventario" textOverrun="CLIP" wrapText="false" />
+        <Button mnemonicParsing="false" styleClass="ipad-dark-grey" text="MRP" />
+        <Button mnemonicParsing="false" styleClass="ipad-dark-grey" text="Planning" />
+      </children>
+      <stylesheets>
+        <URL value="@../css/Buttons.css" />
+      </stylesheets>
+    </HBox>
+  </children>
+  <stylesheets>
+    <URL value="@../css/Buttons.css" />
+  </stylesheets>
+</AnchorPane>
