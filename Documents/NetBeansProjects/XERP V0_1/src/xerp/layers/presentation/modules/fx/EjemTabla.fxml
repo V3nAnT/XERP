@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="xerp.layers.presentation.modules.EjemTablaController">
+  <children>
+    <StackPane id="StackPane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <TableView fx:id="tblMain" editable="true" prefHeight="400.0" prefWidth="600.0">
+          <columns>
+            <TableColumn prefWidth="75.0" text="String" fx:id="colString" />
+            <TableColumn prefWidth="75.0" text="Integer" fx:id="colInteger" />
+            <TableColumn prefWidth="75.0" text="Double" fx:id="colDouble" />
+          </columns>
+        </TableView>
+      </children>
+    </StackPane>
+    <Button fx:id="btnBoton" mnemonicParsing="false" onAction="#addRows" text="Button" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="2.0" />
+  </children>
+  <stylesheets>
+    <URL value="@../css/tablas.css" />
+  </stylesheets>
+</AnchorPane>

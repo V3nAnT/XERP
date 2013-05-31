@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package xerp.layers.presentation.modules;
+package xerp.layers.presentation.modules.fx;
 
 import java.net.URL;
 import java.util.ResourceBundle;

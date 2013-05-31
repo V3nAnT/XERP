@@ -2,16 +2,16 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package xerp.layers.presentation.modules;
+package xerp.layers.presentation.modules.fx;
 
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import xerp.layers.presentation.main.ControlledScreen;
-import xerp.layers.presentation.main.ScreensController;
-import xerp.layers.presentation.main.XERPV01;
+import xerp.layers.presentation.main.fx.ControlledScreen;
+import xerp.layers.presentation.main.fx.ScreensController;
+import xerp.layers.presentation.main.fx.XERPV01;
 
 /**
  * FXML Controller class
@@ -41,7 +41,12 @@ public class InventoryController implements Initializable, ControlledScreen{
 
     @FXML
     private void openMrp(ActionEvent event) {
-        
+        myController.setScreen(XERPV01.mrpScreenId);
+    }
+
+    @FXML
+    private void chBxHEOQChecked(ActionEvent event) {
+       
     }
 
 }
